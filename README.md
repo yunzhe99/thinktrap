@@ -1,4 +1,4 @@
-# LLM Repetition Search
+# Thinktrap
 
 This toolkit searches for short prompts that induce unusually long or repetitive LLM outputs. It supports local Hugging Face causal language models and OpenAI-compatible chat APIs.
 
