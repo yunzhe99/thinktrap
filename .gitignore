@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+private/
+.venv/
+venv/
+
+# Large or generated experiment artifacts.
+outputs/
+*.out
+*.log
+*.csv
+*.xlsx
+*.png
+*.pdf
+
+# Model/cache directories.
+hf_cache/
+.cache/
+models/
+checkpoints/

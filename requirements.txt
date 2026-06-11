@@ -1,0 +1,6 @@
+accelerate
+cma
+numpy
+openai
+torch
+transformers
