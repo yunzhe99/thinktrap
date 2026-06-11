@@ -1,6 +1,6 @@
-# ThinkTrap
+# LLM Repetition Search
 
-ThinkTrap searches for short prompts that induce unusually long or repetitive LLM outputs. It supports local Hugging Face causal language models and OpenAI-compatible chat APIs.
+This toolkit searches for short prompts that induce unusually long or repetitive LLM outputs. It supports local Hugging Face causal language models and OpenAI-compatible chat APIs.
 
 This repository contains only source code and runnable examples. It does not include model weights, API keys, full generated outputs, saved prompts, or experiment result dumps.
 
@@ -13,8 +13,6 @@ src/
   thinktrap_common.py         # Shared generation and repetition metrics
 scripts/
   run_local_qwen7b.sh         # Local model example
-  run_sjtu_api.sh             # API example
-  run_sjtu_api_models.sh      # Batch API example
 ```
 
 ## Install
