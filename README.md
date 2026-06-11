@@ -107,18 +107,14 @@ Each run writes a JSONL file with prompts, generated text, and metrics; a CSV fi
   title={On the Availability Risks of Production LLM Services under Unbounded Inference},
   author={Li, Yunzhe and Wang, Jianan and Zhu, Hongzi and Lin, James and Chang, Shan and Guo, Minyi},
   journal={IEEE Transactions on Dependable and Secure Computing},
-  year={2026},
-  note={To appear},
-  url={https://lion.sjtu.edu.cn/publication/publicationDetail?id=153}
+  year={2026}
 }
 
 @inproceedings{li2026thinktrap,
   title={ThinkTrap: Denial-of-Service Attacks against Black-box LLM Services via Infinite Thinking},
   author={Li, Yunzhe and Wang, Jianan and Zhu, Hongzi and Lin, James and Chang, Shan and Guo, Minyi},
   booktitle={Proceedings of the Network and Distributed System Security Symposium (NDSS)},
-  year={2026},
-  address={San Diego, USA},
-  url={https://lion.sjtu.edu.cn/publication/publicationDetail?id=149}
+  year={2026}
 }
 ```
 
