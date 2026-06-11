@@ -13,8 +13,8 @@ src/
   thinktrap_common.py         # Shared generation and repetition metrics
 scripts/
   run_local_qwen7b.sh         # Local model example
-  run_sjtu_api.sh             # SJTU API example
-  run_sjtu_api_models.sh      # Batch SJTU API example
+  run_sjtu_api.sh             # API example
+  run_sjtu_api_models.sh      # Batch API example
 ```
 
 ## Install
@@ -80,20 +80,6 @@ python src/api_attack.py \
   --low-dim 8 \
   --prompt-len 20 \
   --output-dir outputs/api_model
-```
-
-For the SJTU model service, keep the key outside the repository:
-
-```bash
-export SJTU_API_KEY=...
-SJTU_API_MODEL=deepseek-reasoner bash scripts/run_sjtu_api.sh
-```
-
-The SJTU wrapper defaults to `https://models.sjtu.edu.cn/api/v1`, `deepseek-reasoner`, and a 6.5 second minimum request interval. A small batch can be run with:
-
-```bash
-export SJTU_API_KEY=...
-bash scripts/run_sjtu_api_models.sh
 ```
 
 ## Outputs
